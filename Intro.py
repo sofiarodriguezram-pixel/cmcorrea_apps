@@ -4,7 +4,7 @@ from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial")
 st.subheader("Conversión de texto a voz")
 image = Image.open('txt_to_audio.png')
-st.image(image, width=250)
+st.image(image, width=300)
 st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
 texto_del_enlace = "Texto a voz"
 url = "https://imultimod.streamlit.app/"
