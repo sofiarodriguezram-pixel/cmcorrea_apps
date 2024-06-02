@@ -12,7 +12,7 @@ with col1:
  url = "https://imultimod.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Imágenes")
+ st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
@@ -27,6 +27,13 @@ with col2:
  url = "https://traductor-ab0sp9f6fi.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
+ st.subheader("Reconocimiento de Objetos")
+ image = Image.open('txt_to_audio.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ st.write(f"YOLO: [Enlace]({url})")
+
 with col3: 
  st.subheader("Generación en Contexto")
  image = Image.open('Chat_pdf.png')
@@ -34,4 +41,11 @@ with col3:
  st.write("En la siguiente veremos una aplicación que usa el análisis dentro de un contexto a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
+
+ st.subheader("Análisis de Imagen")
+ image = Image.open('txt_to_audio.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+ url = "https://vision2-gpt4o.streamlit.app/"
+ st.write(f"YOLO: [Enlace]({url})")
 
