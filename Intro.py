@@ -1,12 +1,17 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Aplicaciones de Inteligencia Artificial")
+st.title("Aplicaciones de Inteligencia Artificial.")
 st.subheader("Conversión de texto a voz")
 image = Image.open('txt_to_audio.png')
 st.image(image, width=300)
 st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
-texto_del_enlace = "Texto a voz"
 url = "https://imultimod.streamlit.app/"
 st.write(f"Texto a voz: [Enlace]({url})")
-st.markdown(f"{texto_del_enlace}")
+
+st.subheader("Conversión de voz a texto")
+image = Image.open('audi_to_txt.png')
+st.image(image, width=300)
+st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
+url = "https://traductor-ab0sp9f6fi.streamlit.app/"
+st.write(f"Voz a texto: [Enlace]({url})")
