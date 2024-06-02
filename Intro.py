@@ -21,7 +21,7 @@ with col2:
  st.write(f"Voz a texto: [Enlace]({url})")
 
 with col3: 
- st.subheader("RAG")
+ st.subheader("Generación en Contexto")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa el análisis dentro de un contexto a partir de un documento (PDF).") 
