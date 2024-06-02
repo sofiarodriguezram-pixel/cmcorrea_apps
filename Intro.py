@@ -24,7 +24,7 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
- image = Image.open('OIG5,jpg')
+ image = Image.open('OIG5.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
