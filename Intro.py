@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
-
+st.title("Aplicaciones de Inteligencia Artificial.")
 col1, col2, col3 = st.columns(3)
 
 with col1:
- st.title("Aplicaciones de Inteligencia Artificial.")
+ 
  st.subheader("Conversión de texto a voz")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
