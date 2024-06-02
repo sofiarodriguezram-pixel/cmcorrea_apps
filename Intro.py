@@ -19,6 +19,13 @@ with col1:
  url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
+ st.subheader("Entrenando Modelos")
+ image = Image.open('txt_to_audio.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ st.write(f"YOLO: [Enlace]({url})")
+
 with col2: 
  st.subheader("Conversión de voz a texto")
  image = Image.open('audio_to_txt.png')
@@ -33,6 +40,14 @@ with col2:
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://asistpy-csv.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
+
+ st.subheader("Trasnscriptor")
+ image = Image.open('data_analisis.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ url = "https://transcript-whisper.streamlit.app/"
+ st.write(f"Datos: [Enlace]({url})")
+
 
 with col3: 
  st.subheader("Generación en Contexto")
