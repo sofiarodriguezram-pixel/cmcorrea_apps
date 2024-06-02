@@ -10,7 +10,7 @@ url = "https://imultimod.streamlit.app/"
 st.write(f"Texto a voz: [Enlace]({url})")
 
 st.subheader("Conversión de voz a texto")
-image = Image.open('audi_to_txt.png')
+image = Image.open('audio_to_txt.png')
 st.image(image, width=300)
 st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
 url = "https://traductor-ab0sp9f6fi.streamlit.app/"
