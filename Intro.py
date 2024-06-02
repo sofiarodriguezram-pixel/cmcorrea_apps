@@ -1,6 +1,10 @@
 import streamlit as st
 from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
+
+with st.sidebar:
+  st.subheader("Acerca de:")
+  st.write("Aplicaciones de IA")
 col1, col2, col3 = st.columns(3)
 
 with col1:
