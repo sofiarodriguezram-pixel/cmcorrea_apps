@@ -62,7 +62,7 @@ with col3:
  st.write(f"RAG: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
- image = Image.open('OIG2.jpg')
+ image = Image.open('OIG4.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
  url = "https://vision2-gpt4o.streamlit.app/"
