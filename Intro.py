@@ -46,7 +46,7 @@ with col2:
  st.write(f"Datos: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('data_analisis.png')
+ image = Image.open('OIG3.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://transcript-whisper.streamlit.app/"
@@ -62,7 +62,7 @@ with col3:
  st.write(f"RAG: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
- image = Image.open('txt_to_audio.png')
+ image = Image.open('OIG2.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
  url = "https://vision2-gpt4o.streamlit.app/"
