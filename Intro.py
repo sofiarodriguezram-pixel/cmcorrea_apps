@@ -28,7 +28,7 @@ with col2:
  st.write(f"Voz a texto: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
- image = Image.open('txt_to_audio.png')
+ image = Image.open('data_analisis.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://asistpy-csv.streamlit.app/"
