@@ -19,3 +19,12 @@ with col2:
  st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
  url = "https://traductor-ab0sp9f6fi.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
+
+with col3: 
+ st.subheader("Generación Aumentada por Recuperación")
+ image = Image.open('Chat_pdf.png')
+ st.image(image, width=200)
+ st.write("En la siguiente veremos una aplicación que usa el análisis dentro de un contexto a partir de un documento (PDF).") 
+ url = "https://chatpdf-cc.streamlit.app/"
+ st.write(f"Voz a texto: [Enlace]({url})")
+
