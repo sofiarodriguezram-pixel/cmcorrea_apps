@@ -12,6 +12,7 @@ with col1:
  url = "https://imultimod.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
+with col1: 
  st.subheader("Conversión de voz a texto")
  image = Image.open('audio_to_txt.png')
  st.image(image, width=300)
