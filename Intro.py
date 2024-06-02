@@ -46,7 +46,7 @@ with col2:
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write(f"Transcriptor: [Enlace]({url})")
 
 
 with col3: 
@@ -63,4 +63,12 @@ with col3:
  st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
+ 
+ st.subheader("Sistema Ciberfísico")
+ image = Image.open('txt_to_audio.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+ url = "https://vision2-gpt4o.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
 
