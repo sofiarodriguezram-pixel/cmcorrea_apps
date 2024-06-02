@@ -41,7 +41,7 @@ with col2:
  url = "https://asistpy-csv.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
- st.subheader("Trasnscriptor")
+ st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('data_analisis.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
