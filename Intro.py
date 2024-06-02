@@ -36,7 +36,7 @@ with col2:
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
- st.image(image, width=200)
+ st.image(image, width=190)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
  url = "https://asistpy-csv.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
