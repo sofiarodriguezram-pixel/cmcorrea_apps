@@ -38,7 +38,7 @@ with col3:
  st.subheader("Generación en Contexto")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa el análisis dentro de un contexto a partir de un documento (PDF).") 
+ st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
