@@ -3,6 +3,7 @@ from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
 
 with st.sidebar:
+  st.subheader("Aplicaciones con Inteligencia Artificial")
   parrafo = (
     "La inteligencia artificial permite a las aplicaciones mejorar la toma de decisiones, "
     "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
