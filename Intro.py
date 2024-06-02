@@ -3,8 +3,13 @@ from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
 
 with st.sidebar:
-  st.subheader("Acerca de:")
-  st.write("Aplicaciones de IA")
+  parrafo = (
+    "La inteligencia artificial permite a las aplicaciones mejorar la toma de decisiones, "
+    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
+    "resulta en una mayor eficiencia y precisión en diversos campos como la salud, la educación "
+    "y los negocios."
+  )
+  st.write(parrafo)
 col1, col2, col3 = st.columns(3)
 
 with col1:
