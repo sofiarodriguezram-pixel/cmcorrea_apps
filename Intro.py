@@ -10,6 +10,9 @@ with st.sidebar:
     "resulta en una mayor eficiencia y precisión en diversos campos."
   )
   st.write(parrafo)
+
+st.write("En la siguiente enlace puedes encontrar páginas y ejercicios prácticos")
+st.write(f"Texto a voz: [Enlace]({"https://sites.google.com/view/aplicacionesdeia/inicio"})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
