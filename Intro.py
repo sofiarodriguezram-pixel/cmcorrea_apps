@@ -35,7 +35,7 @@ with col1:
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
  url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
@@ -50,14 +50,14 @@ with col2:
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ st.write("En la siguiente enlace veremos como se pueden analizar datos.") 
  url = "https://asistpy-csv.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
  url = "https://transcript-whisper.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
@@ -80,7 +80,7 @@ with col3:
  st.subheader("Sistema Ciberfísico")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+ st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
