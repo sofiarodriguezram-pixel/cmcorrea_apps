@@ -47,41 +47,60 @@ with col2:
  url = "https://traductor-ab0sp9f6fi.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("Reconocimiento Óptico de Caracteres")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
+ st.write("En la siguiente enlace veremos como se pueden reconocer caracteres opticos.") 
+ url = "https://ocrtrabajo.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Análisis Inteligente de PDF con RAG")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
+ st.write("En la siguiente enlace veremos como realizamos se analiza un PDF.") 
+ url = "https://chatpdfsof.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Reconocimiento de Dígitos escritos a mano")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
+ st.write("En la siguiente veremos una aplicación que reconoce de Dígitos escritos a mano.") 
+ url = "https://wffsu6ifdgp2mgwmfym4vx.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Tablero Inteligente")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("En la siguiente enlace veremos un Tablero Inteligente.") 
+ url = "https://drawrecog-ycoqpoyxksaeat62zyfgbr.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Mi primera App")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("En la siguiente enlace veremos Mi primera App.") 
+ url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
+st.subheader("Mi primera App")
+ image = Image.open('OIG6.jpg')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos Mi primera App.") 
+ url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
 
+st.subheader("Mi primera App")
+ image = Image.open('OIG6.jpg')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos Mi primera App.") 
+ url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+st.subheader("Mi primera App")
+ image = Image.open('OIG6.jpg')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos Mi primera App.") 
+ url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
