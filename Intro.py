@@ -84,23 +84,6 @@ with col3:
  url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
-st.subheader("Mi primera App")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos Mi primera App.") 
- url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
 
-st.subheader("Mi primera App")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos Mi primera App.") 
- url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
 
-st.subheader("Mi primera App")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos Mi primera App.") 
- url = "https://bbfpukst4yubuwgxyopbub.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+
