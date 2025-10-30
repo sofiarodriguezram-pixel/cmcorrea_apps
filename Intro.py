@@ -25,11 +25,11 @@ with col1:
  url = "https://9jxqgjkrh3xxuydqumj9nq.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("TRADUCTOR DE VOZ")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ st.write("En la siguiente enlace veremos como se traduce en diceferente idiomas .") 
+ url = "https://traductor-vpyprhasbpcbvzsb4huls7.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
